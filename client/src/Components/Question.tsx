@@ -38,7 +38,7 @@ export function Question(){
     }
     const handleConfirm=()=>{
         if(selectedAnswer==""){
-            alert("choose an answer")
+            alert("Choose an answer please")
         }else{
             setConfirm(true)
             if(selectedAnswer.toLocaleLowerCase()==questions[index].pos.toLocaleLowerCase()){
