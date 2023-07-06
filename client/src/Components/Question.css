@@ -1,0 +1,27 @@
+.QuestionmainDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: #19A7CE;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.QuestionDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    align-items: center;
+    row-gap: 1vh;
+}
+.questiondiv1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}

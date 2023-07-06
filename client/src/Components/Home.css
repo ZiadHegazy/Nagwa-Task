@@ -1,0 +1,24 @@
+.HomemainDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: #19A7CE;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.HomeBtn{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+}
+.HomeBtn:hover{
+    background-color: #AFD3E2;
+}
