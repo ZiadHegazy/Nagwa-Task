@@ -37,7 +37,6 @@ router.get("/wordlist",async function (req:Request,res:Response){
                 finalarr.push(randomWord)
                 wordList=wordList.filter((word:any)=>word.id!=randomWord.id)
             }
-            console.log(finalarr)
             res.json(finalarr)
 
             // Process the JSON data
